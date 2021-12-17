@@ -1,0 +1,24 @@
+{
+    "name": "provinces-api",
+    "version": "1.0.0",
+    "description": "A Node.js API for SA provinces",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon ./app.js --exec babel-node -e js"
+    },
+    "author": "Jonah Kuria",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "mongodb": "^4.2.1",
+        "mongoose": "^6.1.1",
+        "nodemon": "^2.0.15"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.16.0",
+        "@babel/core": "^7.16.0",
+        "@babel/node": "^7.16.0",
+        "@babel/preset-env": "^7.16.4"
+    }
+}
